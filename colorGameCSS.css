@@ -1,0 +1,64 @@
+ body {
+ 	background-color: #222222; 
+}
+
+
+#head {
+	background-color: #03e8fc;
+	text-transform: uppercase;
+	line-height: 1.5;
+	padding: 5px 0;
+	margin: 0;
+}
+
+p {
+	color: black;
+	font-weight: bold;
+}
+
+.text-center {
+	color: white;
+}
+
+.square {
+	width: 30%;
+	background-color: pink;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 50%;
+	transition: all 0.8s;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+#nav {
+	background-color: white;
+	height: 39px;
+}
+
+.selected {
+	font-weight: bold;
+	background-color: red; 
+}
+
+#options {
+	background-color: white; 
+}
+
+.btn {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+	outline: none;
+}
+
+.mode:hover {
+	color: white;
+	background-color: red;
+}
